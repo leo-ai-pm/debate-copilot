@@ -69,7 +69,6 @@ node server.js
 │   └── debate-llm.js       # 前后端共用：辩位时长表与反方教练提示词（单一事实来源）
 ├── config.example.json     # 配置模板（不含任何真实密钥）
 ├── 使用说明.md             # 本地模式详细图文说明与 FAQ
-├── LICENSE                 # MIT
 └── .nojekyll               # GitHub Pages 兼容
 ```
 
@@ -92,7 +91,3 @@ node server.js
 - 本工具为辩论学习与备赛辅助，生成内容请人工核对后使用；
 - 不内置、不分发任何 API 密钥，调用云服务产生的费用由使用者本人承担；
 - 引用的书籍、事件（如特克尔《群体性孤独》、Replika 2023 模型调整等）请自行核实最新表述，提示词已约束模型不得编造数据。
-
-## License
-
-[MIT](./LICENSE)
